@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <title>Document</title>
+	<link rel="stylesheet" href="./css/1.css">
+</head>
+<style>
+    body,html{
+     
+        height: 100%;
+    }
+    .mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9;
+  display: none;
+}
+</style>
+
+<body>
+    
+    <div class="mainBody">
+        <div class="mask"></div>
+        <div class="head">
+            <div>当前地点：<i class="iconfont icondingwei" style="font-size: 14px;color: #FF6D3D"></i>&nbsp;<span
+                    id="location">芜湖</span>【<a href="#" id="changeAddress"><span>更换</span></a>】
+            </div>
+            <div class="city-list" style="display: none">
+                <div style="border-bottom: 1px solid #F5F5F5">
+                    <h3 class="title">国内城市</h3>
+                    <div class="group">
+                        <a href="#">上海</a>
+                        <a href="#">北京</a>
+                        <a href="#">广州</a>
+                        <a href="#">深圳</a>
+                        <a href="#">天津</a>
+                        <a href="#">杭州</a>
+                        <a href="#">南京</a>
+                        <a href="#">苏州</a>
+                        <a href="#">成都</a>
+                        <a href="#">武汉</a>
+                        <a href="#">重庆</a>
+                        <a href="#">西安</a>
+                    </div>
+                </div>
+                <div style="margin-top: 10px">
+                    <h3 class="title">国外城市</h3>
+                    <div class="group">
+                        <a href="#">东京</a>
+                        <a href="#">首尔</a>
+                        <a href="#">曼谷</a>
+                        <a href="#">巴黎</a>
+                    </div>
+                </div>
+                <a class="allCity">更多城市></a>
+            </div>
+
+            <div class="nav">
+                <div>你好，请 <a href="#" class="login">登录</a>。</div>
+                <ul>
+                    <li style="color: #07a1e8;font-weight: bold">免费注册</li>
+                    <li id="personalCenter">个人中心&nbsp;<i class="iconfont iconxiangxiajiantou"
+                            style="font-size: 14px;"></i>
+                        <ul class="navChange1" style="display: none;">
+                            <li>我的评价</li>
+                            <li>我的收藏</li>
+                            <li>我的团购</li>
+                            <li>我的部落</li>
+                            <li>我的订做</li>
+                            <li>我的设置</li>
+                            <li>酒店订单</li>
+                        </ul>
+                    </li>
+                    <li>商务服务&nbsp;<i class="iconfont iconxiangxiajiantou" style="font-size: 14px;"></i></li>
+                    <li id="helpCenter">帮助中心&nbsp;<i class="iconfont iconxiangxiajiantou" style="font-size: 14px;"></i>
+                        <ul class="navChange2" style="display: none;">
+                            <li>平台规则</li>
+                            <li>联系客服</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="search">
+                &nbsp;&nbsp;<i class="iconfont iconsousuo" style="font-size: 14px;color: #cfcfcf"></i>&nbsp;&nbsp;<input
+                    type="text" placeholder="搜索商户名、地址、菜名、外卖等"><button>搜索</button>
+            </div>
+
+            <div class="map" onclick="window.location.href='map.html'">
+                地图模式
+            </div>
+        </div>
+
+        <div class="banner"></div>
+
+        <div class="main">
+            <div class="left">
+                <h4>点击注册</h4>
+                <div>
+                    <span>Hi，你好</span>
+                    <p>请登录此网站，解锁更多功能</p>
+                    <div>
+                        <a href="#">登录</a>
+                        <a href="#">注册</a>
+                    </div>
+                </div>
+            </div>
+            <div class="middle">
+                <h4>美食论坛</h4>
+                <div>
+                    <p>金卡电话卡就是对话框把大家哈哈镜还是北方大旱记得撒旦骄傲的贺卡上看见发</p>
+                    <p>金卡电话卡就是对话框把大家哈哈镜还是北方大旱记得发</p>
+                    <p>金卡电话卡就是对话框把大阿凡达饭卡手机开发理念上的开发开放那就来看技术的那件蓝色家哈哈镜还是北方大旱记得发</p>
+                    <p>金卡电话卡就是对话框把大家哈哈镜还是北方大旱记得撒旦骄傲的贺卡上看见发</p>
+                    <p>金卡电话卡就是对话框把大家哈哈镜还是北方大旱记得发金卡电话卡就是对话框把大阿凡达饭卡手机开发理念上的开发开放那就来看技术的那件蓝色家哈哈镜还是北方大旱记得发金卡电话卡就是对话框把大阿凡达饭卡手机开发理念上的开发开放那就来看技术的那件蓝色家哈哈镜还是北方大旱记得发
+                    </p>
+                    <p>金卡电话卡就是对话框把大阿凡达饭卡手机开发理念上的开发开放那就来看技术的那件蓝色家哈哈镜还是北方大旱记得发</p>
+                    <p>金卡电话卡就是对话框把大家哈哈镜还是北方大旱记得撒旦骄傲的贺卡上看见发</p>
+                    <p>金卡电话卡就是对话框把大家哈哈镜还是北方大旱记得发金卡电话卡就是对话框把大阿凡达饭卡手机开发理念上的开发开放那就来看技术的那件蓝色家哈哈镜还是北方大旱记得发</p>
+                    <p>金卡电话卡就是对话框把大阿凡达饭卡手机开发理念上的开发开放那就来看技术的那件蓝色家哈哈镜还是北方大旱记得发</p>
+                </div>
+            </div>
+            <div class="right">
+                <h4>全部分类</h4>
+                <ul>
+                    <li>
+                        <span>火锅</span>&nbsp;
+                        <div>
+                            <span>海底捞</span>
+                            <span>哥老官</span>
+                            <span>小龙坎</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span>火锅</span>&nbsp;
+                        <div>
+                            <span>海底捞</span>
+                            <span>哥老官</span>
+                            <span>小龙坎</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span>火锅</span>&nbsp;
+                        <div>
+                            <span>海底捞</span>
+                            <span>哥老官</span>
+                            <span>小龙坎</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span>火锅</span>&nbsp;
+                        <div>
+                            <span>海底捞</span>
+                            <span>哥老官</span>
+                            <span>小龙坎</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span>火锅</span>&nbsp;
+                        <div>
+                            <span>海底捞</span>
+                            <span>哥老官</span>
+                            <span>小龙坎</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span>火锅</span>&nbsp;
+                        <div>
+                            <span>海底捞</span>
+                            <span>哥老官</span>
+                            <span>小龙坎</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span>火锅</span>&nbsp;
+                        <div>
+                            <span>海底捞</span>
+                            <span>哥老官</span>
+                            <span>小龙坎</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="recommend">
+            <h4>推荐的顶级餐厅</h4>
+            <ul>
+                <li>
+                    <img class="img" src="image/1.jpg" alt="" width="230px" height="162px" style="  cursor: pointer;">
+                    <span>海底捞火锅(湖滨银泰店)</span>
+                    <div>
+                        <span>人均：134元</span>
+                        <span>口味：4.72分</span>
+                        <span>环境：4.75分</span>
+                        <span>服务：4.52分</span>
+                    </div>
+                </li>
+                <li>
+                    <img class="img" src="image/2.jpg" alt="" width="230px" height="162px;" style="  cursor: pointer;">
+                    <span>海底捞火锅(湖滨银泰店)</span>
+                    <div>
+                        <span>人均：134元</span>
+                        <span>口味：4.72分</span>
+                        <span>环境：4.75分</span>
+                        <span>服务：4.52分</span>
+                    </div>
+                </li>
+                <li>
+                    <img class="img" src="image/3.jpg" alt="" width="230px" height="162px" style="  cursor: pointer;">
+                    <span>海底捞火锅(湖滨银泰店)</span>
+                    <div>
+                        <span>人均：134元</span>
+                        <span>口味：4.72分</span>
+                        <span>环境：4.75分</span>
+                        <span>服务：4.52分</span>
+                    </div>
+                </li>
+                <li>
+                    <img class="img" src="image/4.jpg" alt="" width="230px" height="162px" style="  cursor: pointer;">
+                    <span>海底捞火锅(湖滨银泰店)</span>
+                    <div>
+                        <span>人均：134元</span>
+                        <span>口味：4.72分</span>
+                        <span>环境：4.75分</span>
+                        <span>服务：4.52分</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+       
+        <div class="footer">
+            <a href="#">设为首页</a>
+            <a href="#">关于我们</a>
+            <a href="#">About Us</a>
+            <a href="#">意见反馈</a>
+            <a href="#">帮助中心</a>
+            <a href="#">©2020</a>
+            <a href="#">(京)-经营性-2017-0020京公网安备11000002000001号京ICP证030173</a>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="plugins/banner/js/index.js"></script>
+<script src="./js/1.js"></script>
+<script>
+    var img = document.getElementsByClassName('img')
+    console.log(img)
+    for(var i =0;i<img.length;i++){
+        img[i].onclick = function(){
+            document.getElementsByClassName('mask')[0].style.display="block"
+            var img = document.createElement('img')
+            img.style.position = 'absolute'
+            img.style.top = '50%'
+            img.style.left = '50%'
+            img.style.transform = 'translate(-50%,-50%)'
+            img.style.width = 500+'px'
+            img.style.height = 500+'px'
+            img.src="image/1.jpg"
+            document.getElementsByClassName('mask')[0].appendChild(img)
+        }
+    }
+    document.getElementsByClassName('mask')[0].onclick  =function(){
+        this.style.display = 'none'
+    }
+</script>
+</html>

@@ -1,0 +1,37 @@
+{
+  "id": "2258383",
+  "name": "test",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1901667",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "12875293",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "9743260",
+      "name": "向上箭头-面性",
+      "font_class": "shixinjiantou-xiangshang",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "6539448",
+      "name": "向下箭头",
+      "font_class": "xiangxiajiantou",
+      "unicode": "e68a",
+      "unicode_decimal": 59018
+    }
+  ]
+}

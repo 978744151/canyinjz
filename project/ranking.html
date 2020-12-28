@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="iconfont/iconfont.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <div class="mainBody ranking">
+      <div class="head">
+        <div>
+          当前地点：<i
+            class="iconfont icondingwei"
+            style="font-size: 14px; color: #ff6d3d"
+          ></i
+          >&nbsp;<span id="location">芜湖</span>【<a href="#" id="changeAddress"
+            ><span>更换</span></a
+          >】
+        </div>
+        <div class="city-list" style="display: none">
+          <div style="border-bottom: 1px solid #f5f5f5">
+            <h3 class="title">国内城市</h3>
+            <div class="group">
+              <a href="#">上海</a>
+              <a href="#">北京</a>
+              <a href="#">广州</a>
+              <a href="#">深圳</a>
+              <a href="#">天津</a>
+              <a href="#">杭州</a>
+              <a href="#">南京</a>
+              <a href="#">苏州</a>
+              <a href="#">成都</a>
+              <a href="#">武汉</a>
+              <a href="#">重庆</a>
+              <a href="#">西安</a>
+            </div>
+          </div>
+          <div style="margin-top: 10px">
+            <h3 class="title">国外城市</h3>
+            <div class="group">
+              <a href="#">东京</a>
+              <a href="#">首尔</a>
+              <a href="#">曼谷</a>
+              <a href="#">巴黎</a>
+            </div>
+          </div>
+          <a class="allCity">更多城市></a>
+        </div>
+
+        <div class="nav">
+          <div>你好，请 <a href="#" class="login">登录</a>。</div>
+          <ul>
+            <li style="color: #07a1e8; font-weight: bold">免费注册</li>
+            <li id="personalCenter">
+              个人中心&nbsp;<i
+                class="iconfont iconxiangxiajiantou"
+                style="font-size: 14px"
+              ></i>
+              <ul class="navChange1" style="display: none">
+                <li>我的评价</li>
+                <li>我的收藏</li>
+                <li>我的团购</li>
+                <li>我的部落</li>
+                <li>我的订做</li>
+                <li>我的设置</li>
+                <li>酒店订单</li>
+              </ul>
+            </li>
+            <li>
+              商务服务&nbsp;<i
+                class="iconfont iconxiangxiajiantou"
+                style="font-size: 14px"
+              ></i>
+            </li>
+            <li id="helpCenter">
+              帮助中心&nbsp;<i
+                class="iconfont iconxiangxiajiantou"
+                style="font-size: 14px"
+              ></i>
+              <ul class="navChange2" style="display: none">
+                <li>平台规则</li>
+                <li>联系客服</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="nav-next">
+        <a class="nav-item" href="home.html">回到主页</a>
+        <a class="nav-item" href="detail.html">详细界面</a>
+        <a class="nav-item" href="ranking.html">介绍页面</a>
+        <a class="nav-item" href="evaluate.html">评论页面</a>
+        <a class="nav-item" href="map.html">地图模式</a>
+      </div>
+      <div class="section">
+        <div class="search">
+          &nbsp;&nbsp;<i
+            class="iconfont iconsousuo"
+            style="font-size: 14px; color: #cfcfcf"
+          ></i
+          >&nbsp;&nbsp;<input
+            type="text"
+            placeholder="搜索商户名、地址、菜名、外卖等"
+          /><button>搜索</button>
+        </div>
+      </div>
+      <div class="flex">
+       <div class="ranking-left">
+        <div class="return">
+         返回主页
+        </div>
+        <div class="goods">
+         <div class="list">
+          <p>杭州必吃的10家餐厅</p>
+          <img src="./image/24.jpg" alt="">
+         </div>
+         <div class="list">
+          <p>评分最高的10家火锅店</p>
+          <img src="./image/25.jpg" alt="">
+         </div>
+         <div class="list">
+          <p>评分最高的10家烧烤店</p>
+          <img src="./image/26.jpg" alt="">
+         </div>
+         <div class="list">
+          <p>评分最高的10家西餐店</p>
+          <img src="./image/52.jpg" alt="">
+         </div>
+         <div class="list">
+          <p>评分最高的10家日料店</p>
+          <img src="./image/28.jpg" alt="">
+         </div>
+         <div class="list">
+          <p>评分最低的10家火锅店</p>
+          <img src="./image/51.jpg" alt="">
+         </div>
+         <div class="list">
+          <p>评分最低的10家烧烤店</p>
+          <img src="./image/50.jpg" alt="">
+         </div>
+         <div class="list">
+          <p>评分最低的10家西餐店</p>
+          <img src="./image/47.jpg" alt="">
+         </div>
+         <div class="list">
+          <p>评分最低的10家日料店</p>
+          <img src="./image/48.jpg" alt="">
+         </div>
+        </div>
+       </div>
+       <div class="ranking-right">
+        <div class="title">
+         红榜与黑帮
+        </div>
+        <div class="detail">
+         <div class="left">
+          <img src="./image/33.jpg" alt="">
+         </div>
+         <div class="right">
+          <p> 降霜牛寿喜烧(滨江天街店)</p>
+          <span>819条评价 人均：194元 口味：4.79 环境：4.77 服务：4.84</span>
+          <span>地址：江汉路1515号龙湖滨江天街4F-B-02(贤合庄对面）</span>
+         </div>
+        </div>
+        <div class="detail">
+         <div class="left">
+          <img src="./image/34.jpg" alt="">
+         </div>
+         <div class="right">
+          <p>  满满初牛·不忘初心(国大店）</p>
+          <span>13234条评价 人均：143元 口味：4.86 环境：4.86 服务：4.90</span>
+          <span>地址：延安路609号国大城市广场6楼607号</span>
+         </div>
+        </div>
+        <div class="detail">
+         <div class="left">
+          <img src="./image/35.jpg" alt="">
+         </div>
+         <div class="right">
+          <p> 月龍吟(平安金融中心店）</p>
+          <span>7570条评价 人均：378元 口味：4.88 环境：4.94 服务：4.90</span>
+          <span>地址：民心路280号平安金融中心悦坊四楼401-402（万象城斜对面）</span>
+         </div>
+        </div>
+        <div class="detail">
+         <div class="left">
+          <img src="./image/36.jpg" alt="">
+         </div>
+         <div class="right">
+          <p> 竹哩(滨江店）</p>
+          <span>8455条评价 人均：376元 口味：4.86 环境：4.94 服务：4.90</span>
+          <span>地址：科技馆街1505号凯瑞金座三楼</span>
+         </div>
+        </div>
+        <div class="detail">
+         <div class="left">
+          <img src="./image/40.png" alt="">
+         </div>
+         <div class="right">
+          <p>  酉串·酒场(杭州本店）</p>
+          <span>438条评价 人均：164元 口味：4.54 环境：4.58 服务：4.70</span>
+          <span>地址：屏风街37号</span>
+         </div>
+        </div>
+       
+        <div class="detail">
+         <div class="left">
+          <img src="./image/37.jpg" alt="">
+         </div>
+         <div class="right">
+          <p> AJIYA味屋日式烧肉(开元路店）</p>
+          <span>3498条评价 人均：202元 口味：4.90 环境：4.88 服务：4.87</span>
+          <span>地址：吴山开元路75号（柳营路与开元路交叉口）</span>
+         </div>
+        </div>
+        <div class="detail">
+         <div class="left">
+          <img src="./image/38.jpg" alt="">
+         </div>
+         <div class="right">
+          <p> 丸道东京烧肉(武林店）</p>
+          <span>283条评价 人均：151元 口味：4.56 环境：4.51 服务：4.43</span>
+          <span>地址：武林路277号</span>
+         </div>
+        </div>
+        
+        <div class="detail">
+         <div class="left">
+          <img src="./image/39.jpg" alt="">
+         </div>
+         <div class="right">
+          <p> 竹之若</p>
+          <span>888条评价 人均：222元 口味：4.42 环境：4.67 服务：4.40</span>
+          <span>地址：长滨路1018号新天地丽笙酒店3楼</span>
+         </div>
+        </div>
+        <div class="detail">
+         <div class="left">
+          <img src="./image/40.jpg" alt="">
+         </div>
+         
+
+
+         <div class="right">
+          <p> 瑞穗家寿喜锅料理（来福士店）</p>
+          <span></span>
+          <span>地址：富春路来福士广场B1-26,29号（Go辣对面）</span>
+         </div>
+        </div>
+        <div class="detail">
+         <div class="left">
+          <img src="./image/41.jpg" alt="">
+         </div>
+         
+
+         <div class="right">
+          <p> 山葵家精致料理寿司吧（远洋乐提港店）</p>
+          <span>2412条评价 人均：145元 口味：4.87 环境：4.92 服务：4.90</span>
+          <span>
+           地址：丽水路58号远洋乐提港国际Yeah街区C138-C231</span>
+         </div>
+        </div>
+       </div>
+      </div>
+  
+
+      <div class="footer">
+        <a href="#">设为首页</a>
+        <a href="#">关于我们</a>
+        <a href="#">About Us</a>
+        <a href="#">意见反馈</a>
+        <a href="#">帮助中心</a>
+        <a href="#">©2020</a>
+        <a href="#"
+          >(京)-经营性-2017-0020京公网安备11000002000001号京ICP证030173</a
+        >
+      </div>
+    </div>
+  </body>
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="plugins/banner/js/index.js"></script>
+  <script src="./js/1.js"></script>
+</html>

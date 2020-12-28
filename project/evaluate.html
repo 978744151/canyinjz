@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="iconfont/iconfont.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <div class="mainBody">
+      <div class="head">
+        <div>
+          当前地点：<i
+            class="iconfont icondingwei"
+            style="font-size: 14px; color: #ff6d3d"
+          ></i
+          >&nbsp;<span id="location">芜湖</span>【<a href="#" id="changeAddress"
+            ><span>更换</span></a
+          >】
+        </div>
+        <div class="city-list" style="display: none">
+          <div style="border-bottom: 1px solid #f5f5f5">
+            <h3 class="title">国内城市</h3>
+            <div class="group">
+              <a href="#">上海</a>
+              <a href="#">北京</a>
+              <a href="#">广州</a>
+              <a href="#">深圳</a>
+              <a href="#">天津</a>
+              <a href="#">杭州</a>
+              <a href="#">南京</a>
+              <a href="#">苏州</a>
+              <a href="#">成都</a>
+              <a href="#">武汉</a>
+              <a href="#">重庆</a>
+              <a href="#">西安</a>
+            </div>
+          </div>
+          <div style="margin-top: 10px">
+            <h3 class="title">国外城市</h3>
+            <div class="group">
+              <a href="#">东京</a>
+              <a href="#">首尔</a>
+              <a href="#">曼谷</a>
+              <a href="#">巴黎</a>
+            </div>
+          </div>
+          <a class="allCity">更多城市></a>
+        </div>
+
+        <div class="nav">
+          <div>你好，请 <a href="#" class="login">登录</a>。</div>
+          <ul>
+            <li style="color: #07a1e8; font-weight: bold">免费注册</li>
+            <li id="personalCenter">
+              个人中心&nbsp;<i
+                class="iconfont iconxiangxiajiantou"
+                style="font-size: 14px"
+              ></i>
+              <ul class="navChange1" style="display: none">
+                <li>我的评价</li>
+                <li>我的收藏</li>
+                <li>我的团购</li>
+                <li>我的部落</li>
+                <li>我的订做</li>
+                <li>我的设置</li>
+                <li>酒店订单</li>
+              </ul>
+            </li>
+            <li>
+              商务服务&nbsp;<i
+                class="iconfont iconxiangxiajiantou"
+                style="font-size: 14px"
+              ></i>
+            </li>
+            <li id="helpCenter">
+              帮助中心&nbsp;<i
+                class="iconfont iconxiangxiajiantou"
+                style="font-size: 14px"
+              ></i>
+              <ul class="navChange2" style="display: none">
+                <li>平台规则</li>
+                <li>联系客服</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="nav-next">
+        <a class="nav-item" href="home.html">回到主页</a>
+        <a class="nav-item" href="detail.html">详细界面</a>
+        <a class="nav-item" href="ranking.html">介绍页面</a>
+        <a class="nav-item" href="evaluate.html">评论页面</a>
+        <a class="nav-item" href="map.html">地图模式</a>
+      </div>
+      <div class="section">
+        <div class="search">
+          &nbsp;&nbsp;<i
+            class="iconfont iconsousuo"
+            style="font-size: 14px; color: #cfcfcf"
+          ></i
+          >&nbsp;&nbsp;<input
+            type="text"
+            placeholder="搜索商户名、地址、菜名、外卖等"
+          /><button>搜索</button>
+        </div>
+      </div>
+
+      <div class="evaluate">
+        <p class="return">返回主页</p>
+        <div class="content">
+          <div class="top">
+            <p>网页评论（4340）</p>
+            <span>搜索评价</span>
+          </div>
+          <div class="erery">
+            <div class="title">大家认为</div>
+            <div class="right">
+              <p class="commentText active">回头客（84）</p>
+              <p class="commentText">上菜快（81）</p>
+              <p class="commentText">不用排队（30）</p>
+              <p class="commentText">停车方便（11）</p>
+              <p class="commentText">有表演（8）</p>
+              <p class="commentText">朋友聚餐（157）</p>
+              <p class="commentText">到店自取（80）</p>
+              <p class="commentText">闺蜜聚会（72）</p>
+              <p class="commentText">下午茶（59）</p>
+              <p class="commentText">店内消毒（58）</p>
+            </div>
+          </div>
+          <div>
+            <p>按热度排序 &nbsp;&nbsp;&nbsp;&nbsp;按时间排序</p>
+            <div class="report">
+              <img src="./image/46.jpg" alt="" />
+              <div class="right">
+                <div class="box">
+                  <p class="input">请发表友善的评论</p>
+                  <div class="button">
+                    <p>发表</p>
+                    <p>评论</p>
+                  </div>
+                </div>
+                <p class="expression">表情</p>
+              </div>
+            </div>
+          </div>
+       
+        </div>
+        <div class="list">
+         <div class="radio">
+          <div>
+           <input type="radio"><span>全部</span>
+           <input type="radio"><span>图片</span>
+           <input type="radio"><span>好评</span>
+           <input type="radio"><span>中评</span>
+           <input type="radio"><span>差评</span>
+          </div>
+          <p>默认排序↓</p>
+         </div>
+         <div class="item">
+          <div class="flex">
+           <img src="./image/17.jpg" alt="" class="logo">
+           <div class="right">
+            <p class="title">准时不早退的炫神</p>
+            <p>周五的下午，小朋友要去少年宫学唱歌，加上放学早，那就干脆先去吃个下午茶吧，刚好前几天小妞点名想吃黑汉堡，于是就选他家
+             了。</p>
+             <p>【鲜柚芒果沙拉】 蔬菜和水果的种类非常丰富，略微带点苦，不知是柚子还是某种蔬菜的味道，虾非常大的几只。</p>
+             <p>【澳洲黑凤梨和牛肉汉堡】汉堡很大，一口绝对咬不住，只能分层吃，牛肉很厚很嫩，旁边配的红薯条很甜。</p>
+             <p class="put">收起评论↑</p>
+           </div>
+          </div>
+          <div class="comment-box">
+           <img src="./image/18.jpg" alt="" width="100px" height="140px">
+           <img src="./image/19.jpg" alt="" width="100px" height="140px">
+           <img src="./image/20.jpg" alt="" width="100px" height="140px">
+           <img src="./image/21.jpg" alt="" width="100px" height="140px">
+           <img src="./image/22.jpg" alt="" width="100px" height="140px">
+          </div>
+          <div class="time">
+           <p>喜欢的菜： 鲜柚芒果沙拉 澳洲黑凤梨和牛肉汉堡</p>
+            <span> 赞（5） 回应（3） 收藏 投诉</span>
+          </div>
+          <p style="color:#999">2020-11-04 14:08 Super 27</p>
+         </div>
+        </div>
+        <div class="list">
+         <div class="item">
+          <div class="flex">
+           <img src="./image/3f16376928f8e6abd87b07f07ccafe1.jpg" alt="" class="logo">
+           <div class="right">
+            <p class="title">海绵宝宝电棍儿</p>
+            <p>我进到店里想要一份韭菜盒子，然后店员告诉我通过盘子地下的小礼物可以去换一份特殊的小吃，虽然不是韭菜盒子，但是我觉得商家有
+             心了。针不戳。</p>
+            
+           </div>
+          </div>
+          <div class="time" style="margin-top: 10px;">
+           <p>2020-11-14 16:08 Super 27</p>
+            <span> 赞（5） 回应（3） 收藏 投诉</span>
+          </div>
+         </div>
+        </div>
+
+        <div class="list">
+         <div class="item">
+          <div class="flex">
+           <img src="./image/6.jpg" alt="" class="logo">
+           <div class="right">
+            <p class="title">住在山里真不错</p>
+            <p>这是一家开在延安路沿线的高颜值餐厅，开业到现在好评无数，不定时会出新所以吃了好几次都没有吃厌，风干熟成牛肉是他家的特色，
+             大小节日还会推出不同主题的活动，印象最深的是去年万圣节了，简直嗨爆，回想犹如昨日。</p>
+            
+           </div>
+          </div>
+          <div class="time" style="margin-top: 10px;">
+           <p>2020-6-14 11:08 Super 27</p>
+            <span> 赞（5） 回应（3） 收藏 投诉</span>
+          </div>
+         </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <a href="#">设为首页</a>
+        <a href="#">关于我们</a>
+        <a href="#">About Us</a>
+        <a href="#">意见反馈</a>
+        <a href="#">帮助中心</a>
+        <a href="#">©2020</a>
+        <a href="#"
+          >(京)-经营性-2017-0020京公网安备11000002000001号京ICP证030173</a
+        >
+      </div>
+    </div>
+  </body>
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="plugins/banner/js/index.js"></script>
+  <script src="./js/1.js"></script>
+  <script>
+   var put = document.getElementsByClassName('put')[0]
+   var commentBox = document.getElementsByClassName('comment-box')[0]
+   put.onclick=function(){
+    if( commentBox.style.display == 'none'){
+     commentBox.style.display = 'block'
+     put.innerHTML = '收起评论'
+    }else{
+     commentBox.style.display = 'none'
+     put.innerHTML = '展开评论'
+    }
+    
+   }
+   var commentText = document.getElementsByClassName('commentText')
+   for(var i = 0;i<commentText.length;i++){
+    commentText[i].onclick = function(){
+     for(var i = 0;i<commentText.length;i++){
+      commentText[i].style.color = '#333'
+     }
+     this.style.color="red"
+    }
+   }
+  </script>
+</html>
