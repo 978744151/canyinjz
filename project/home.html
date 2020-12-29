@@ -262,6 +262,7 @@
     console.log(img)
     for(var i =0;i<img.length;i++){
         img[i].onclick = function(){
+            var path = this.src;
             document.getElementsByClassName('mask')[0].style.display="block"
             var img = document.createElement('img')
             img.style.position = 'absolute'
@@ -270,7 +271,7 @@
             img.style.transform = 'translate(-50%,-50%)'
             img.style.width = 500+'px'
             img.style.height = 500+'px'
-            img.src="image/1.jpg"
+            img.src=path
             document.getElementsByClassName('mask')[0].appendChild(img)
         }
     }
